@@ -1,3 +1,5 @@
+
+https://media.giphy.com/media/l4FGFEMVfz1Mrp0qc/giphy.gif
 A realtime chat build with ExpressJS, NodeJS, Websockets, SocketIO and MongoDB.
 
 ## Installation:
