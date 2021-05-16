@@ -1,5 +1,4 @@
 
-<iframe src="https://giphy.com/embed/l4FGFEMVfz1Mrp0qc" width="480" height="318" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/hello-text-phone-l4FGFEMVfz1Mrp0qc">via GIPHY</a></p>
 
 A realtime chat build with ExpressJS, NodeJS, Websockets, SocketIO and MongoDB.
 
