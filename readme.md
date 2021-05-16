@@ -19,11 +19,14 @@ A realtime chat build with ExpressJS, NodeJS, Websockets, SocketIO and MongoDB.
 
 3. To simulate a real conversation you can login with different Google accounts on different browsers.
 
+
 ## Things I've learned
 - [x] Authenticate users with Google Token (google-auth-library).
 - [x] Server Side Rendering with EJS template engine to inject dynamic content into the html.
 - [x] Using Socket.io to create web sockets
 
+
+## Screenshots
 
 ![Screenshot 2021-05-16 at 02 50 13](https://user-images.githubusercontent.com/25463174/118382091-1725d300-b5f2-11eb-90a0-f7aa8559b267.png)
 
