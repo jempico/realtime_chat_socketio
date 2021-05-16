@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+</header>
+
+<main>
+  <div class="jumbotron">
+
+
+
+    <div class="join-container">
+			<header class="join-header">
+				<h1><i class="fas fa-smile"></i> ChatCord</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat" method="GET" >
+					<div class="form-control">
+						<label for="username">Username</label>
+						<input class="newroom-input"
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Enter username..."
+							value= "<%- user.name %>"
+							required
+						/>
+					</div>
+					<div class="form-control newroom-input">
+						<label for="room">Create Room</label>
+						<input
+							type="text"
+							name="room"
+							id="room"
+							placeholder="Enter a new room name..."
+							
+						/>
+					</div>
+					<button type="submit" class="btn">Create Chat</button>
+					<!--input type="submit" value="Save" class="btn"-->
+				</form>
+			</main>
+		</div>
+
+
+
+
+  </div>
+</main>
+
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>

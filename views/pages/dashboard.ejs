@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+</header>
+
+<main>
+  <div class="chat-container">
+    <header class="dashboard-header">
+      <h1><i class="far fa-comment-dots"></i>
+        Dashboard</h1>
+      <a id="dashboard-btn" href="/logout" class="btn">Sign Out</a>
+  </header>
+  <div class="dashboard-container">
+    <img class="profile-img" src="<%- user.picture %>" alt="">
+    <h3 class="welcome-msg"> Hi <%- user.name %>! </h3>
+
+    <a href="/index" class="btn-newroom">Join the chat</a>
+
+  </div>
+</main>
+
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>

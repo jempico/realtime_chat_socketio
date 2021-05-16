@@ -1,0 +1,24 @@
+{
+  "name": "realtime-chat-socket-nodejs",
+  "version": "1.0.0",
+  "description": "realtime chat with users and rooms",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon main",
+    "start": "nodemon main"
+  },
+  "author": "Jemimah Pico",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "google-auth-library": "^7.0.4",
+    "mongoose": "^5.12.7",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+</header>
+
+<main>
+  <div class="jumbotron">
+
+
+
+    <div class="join-container">
+			<header class="join-header">
+				<h1><i class="far fa-comment-dots"></i>
+					My first chat</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat">
+					<div class="form-control">
+						<label for="username">Username</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Enter username..."
+							value= "<%- user.name %>"
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room">Room</label>
+						<select name="room" id="room">
+							<option value="" selected disabled hidden>Choose here</option>
+							<% if (rooms.length > 0) { %>
+								<% rooms.forEach(function(rooms){ %>
+									<option value="<%= rooms.name %>"><%= rooms.name %></option>
+									<% }) %>
+								<%} else { %>
+								<p> There isn't any room created yet </p>
+								<% } %>
+						</select>
+						<button type="submit" class="btn">Join Chat</button>
+					</div>
+					<div class ="form-control-newroom">
+						<p> or </p>
+					<a href="/newRoom" class="btn-newroom">Create New Room</a>
+				</div>
+				</form>
+			</main>
+		</div>
+
+
+
+
+  </div>
+</main>
+
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>
