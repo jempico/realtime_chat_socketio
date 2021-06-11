@@ -1,6 +1,6 @@
 
 
-A realtime chat build with ExpressJS, NodeJS, Websockets, SocketIO and MongoDB.
+A realtime chat build with ExpressJS, NodeJS, Websockets, SocketIO and MongoDB. Deployed to Heroku.
 
 ## Installation:
 1. Install the program (type 'npm install' in your terminal).
