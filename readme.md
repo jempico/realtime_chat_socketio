@@ -10,8 +10,7 @@ A realtime chat where users can access to different chatrooms or create their ow
 - Google Auth
 - Heroku
 
-## Life demo: 
-[Click here:](https://vast-ocean-47639.herokuapp.com/login)
+## Life demo: [click here](https://vast-ocean-47639.herokuapp.com/login)
 
 ## Installation:
 1. Install the program (type 'npm install' in your terminal).
