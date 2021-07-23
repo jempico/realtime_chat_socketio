@@ -12,6 +12,12 @@ A realtime chat where users can access to different chatrooms or create their ow
 
 ## Life demo: [click here](https://vast-ocean-47639.herokuapp.com/login)
 
+![Screenshot 2021-05-16 at 02 50 13](https://user-images.githubusercontent.com/25463174/118382091-1725d300-b5f2-11eb-90a0-f7aa8559b267.png)
+
+![Screenshot 2021-05-16 at 02 53 51](https://user-images.githubusercontent.com/25463174/118382084-f9586e00-b5f1-11eb-91be-396d2510036c.png)
+
+
+
 ## Installation:
 1. Install the program (type 'npm install' in your terminal).
 
@@ -36,11 +42,4 @@ A realtime chat where users can access to different chatrooms or create their ow
 - [x] Authenticate users with Google Token (google-auth-library).
 - [x] Server Side Rendering with EJS template engine to inject dynamic content into the html.
 - [x] Using Socket.io to create web sockets
-
-
-## Screenshots
-
-![Screenshot 2021-05-16 at 02 50 13](https://user-images.githubusercontent.com/25463174/118382091-1725d300-b5f2-11eb-90a0-f7aa8559b267.png)
-
-![Screenshot 2021-05-16 at 02 53 51](https://user-images.githubusercontent.com/25463174/118382084-f9586e00-b5f1-11eb-91be-396d2510036c.png)
 
