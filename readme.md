@@ -1,8 +1,16 @@
 
 
-A realtime chat build with ExpressJS, NodeJS, Websockets, SocketIO and MongoDB. Deployed to Heroku.
+A realtime chat where users can access to different chatrooms or create their own ones and chat with each other!
 
-## Life demo: https://vast-ocean-47639.herokuapp.com/login
+## Stack
+- NodeJS
+- Express
+- SocketIO
+- MongoDB
+- Google Auth
+- Heroku
+
+## Life demo: [click here] (https://vast-ocean-47639.herokuapp.com/login)
 
 ## Installation:
 1. Install the program (type 'npm install' in your terminal).
