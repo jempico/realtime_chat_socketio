@@ -11,7 +11,7 @@ A realtime chat where users can access to different chatrooms or create their ow
 - Heroku
 
 ## Life demo: 
-<p>click here: https://vast-ocean-47639.herokuapp.com/login</p>
+[click here:] (https://vast-ocean-47639.herokuapp.com/login)
 
 ## Installation:
 1. Install the program (type 'npm install' in your terminal).
