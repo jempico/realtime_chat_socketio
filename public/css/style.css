@@ -25,14 +25,8 @@
 }
 
 body {
-	/*font-family: 'Poppins', 'Roboto', sans-serif;
-	font-size: 16px;
-	background: linear-gradient(120deg, var(--sublime), var(--light));	margin: 20px;
-	color: black;*/
 	font-family: var(--body-font);
 	color: var(--white);
-	/*background: linear-gradient(120deg, #FC5C7D, #6A82FB);*/
-
 	background-image: url("/images/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-6016x6016-1432.jpg"), radial-gradient( circle farthest-corner at 10% 20%,  rgba(33,115,130,1) 1.4%, rgba(35,39,124,1) 90% );	
 	background-size: cover;
 	background-position: center;

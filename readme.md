@@ -1,5 +1,6 @@
 <div id="top"></div>
 
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -13,7 +14,7 @@
     A chat where multiple users can join and create their own chats!
     <br />
     <br />
-    <a href="https://jempico.com">View Demo</a>
+    <a href="https://vast-ocean-47639.herokuapp.com/login">View Demo</a>
   </p>
 </div>
 
@@ -36,14 +37,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 As part of my <b>NodeJS</b> learning journey , I've built a realtime chat with <a href="https://expressjs.com/">ExpressJS</a>, <a href="https://socket.io/">Socket.IO</a> and <a href="https://www.mongodb.com/">MongoDB</a>.
 
 Here are the main features of the app:
 * <b>Google Token Authentication</b>: users can login with their Google Account.
 * <b>Multi-user</b>: Different users can login and chat with each other. To try it out in a single machine, just login with different Google Accounts on different browsers.
 * <b>Chatroom creation</b>: users can either select a chatroom from a list of create their own chatrooms from scratch.
+
+
+![Screenshot 2021-05-16 at 02 50 13](https://user-images.githubusercontent.com/25463174/118382091-1725d300-b5f2-11eb-90a0-f7aa8559b267.png)
+
+![Screenshot 2021-05-16 at 02 53 51](https://user-images.githubusercontent.com/25463174/118382084-f9586e00-b5f1-11eb-91be-396d2510036c.png)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -88,14 +93,13 @@ To get a local copy up and running follow these simple example steps.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- ROADMAP -->
 ## Things I've learned
 
 - [x] Authenticate users with Google Token (google-auth-library).
 - [x] Using Socket.io to create web sockets.
 - [x] Using MongoDB and Mongoose for schema validation.
 - [x] Server Side Rendering with EJS template engine to inject dynamic content into the html.
-
+- [x] Using Socket.io to create web sockets
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
