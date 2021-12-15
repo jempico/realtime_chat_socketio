@@ -73,7 +73,7 @@ This is the tech stack I've worked with:
 <!-- GETTING STARTED -->
 ## Installation
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
