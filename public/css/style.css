@@ -31,7 +31,9 @@ body {
 	color: black;*/
 	font-family: var(--body-font);
 	color: var(--white);
-	background-image: url(https://4kwallpapers.com/images/wallpapers/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-5120x2880-1432.jpg);
+	/*background: linear-gradient(120deg, #FC5C7D, #6A82FB);*/
+
+	background-image: url("/images/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-6016x6016-1432.jpg"), radial-gradient( circle farthest-corner at 10% 20%,  rgba(33,115,130,1) 1.4%, rgba(35,39,124,1) 90% );	
 	background-size: cover;
 	background-position: center;
 	display: flex;

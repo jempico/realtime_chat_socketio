@@ -1,25 +1,110 @@
-A realtime chat build with ExpressJS, NodeJS, Websockets, SocketIO and MongoDB.
+<div id="top"></div>
 
-## Installation:
-1. Install the program (type 'npm install' in your terminal).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/jempico/realtime_chat_socketio">
+    <img src="public/images/socket-io.png" alt="Logo" width="80" height="80">
+  </a>
 
-2. Add environment variables: edit or create and `.env` file in the root directory with the following data:
+  <h3 align="center">A realtime chat</h3>
 
-     ```
-     PORT=1000
+  <p align="center">
+    A chat where multiple users can join and create their own chats!
+    <br />
+    <br />
+    <a href="https://jempico.com">View Demo</a>
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#things-ive-learned">Things I've Learned</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+As part of my <b>NodeJS</b> learning journey , I've built a realtime chat with <a href="https://expressjs.com/">ExpressJS</a>, <a href="https://socket.io/">Socket.IO</a> and <a href="https://www.mongodb.com/">MongoDB</a>.
+
+Here are the main features of the app:
+* <b>Google Token Authentication</b>: users can login with their Google Account.
+* <b>Multi-user</b>: Different users can login and chat with each other. To try it out in a single machine, just login with different Google Accounts on different browsers.
+* <b>Chatroom creation</b>: users can either select a chatroom from a list of create their own chatrooms from scratch.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+## Built With
+
+This is the tech stack I've worked with:
+
+* [Node.js](https://nodejs.dev/)
+* [Socket.IO](https://socket.io/)
+* [MongoDB](https://www.mongodb.com/)
+* [Mongoose](https://mongoosejs.com/)
+* [OAuth 2.0](https://developers.google.com/identity/protocols/oauth2)
+* [EJS](https://ejs.co/)
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Installation
+
+To get a local copy up and running follow these simple example steps.
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/jempico/realtime_chat_socketio
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Add environment variables: edit or create and `.env` file in the root directory with the following data: 
+   ```
+    PORT= 1000
     DB_USER = tester
     DB_PASSWORD = AWnHq3IDZaeDL8DP
-     ``` 
-          
-## Run:
-  
-1. Run the program (type 'npm start' in your terminal).
+   ```
 
-2. Head over to http://localhost:1000/login and let the chat begin!
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-3. To simulate a real conversation you can login with different Google accounts on different browsers.
 
+<!-- ROADMAP -->
 ## Things I've learned
+
 - [x] Authenticate users with Google Token (google-auth-library).
+- [x] Using Socket.io to create web sockets.
+- [x] Using MongoDB and Mongoose for schema validation.
 - [x] Server Side Rendering with EJS template engine to inject dynamic content into the html.
-- [x] Using Socket.io to create web sockets
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Jemimah Pico - [Portfolio](https://jempico.com) - [Linkedin](http://linkedin.com/in/jempico) - jpfilarca@gmail.com 
+
+Project Link: [https://github.com/jempico/realtime_chat_socketio](https://github.com/jempico/realtime_chat_socketio)
