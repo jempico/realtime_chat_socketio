@@ -14,7 +14,7 @@
     A chat where multiple users can join and create their own chats!
     <br />
     <br />
-    <a href="https://vast-ocean-47639.herokuapp.com/login">View Demo</a>
+    <a href="https://vast-ocean-47639.herokuapp.com/login">View Demo »</a>
   </p>
 </div>
 
