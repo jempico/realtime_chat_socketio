@@ -6,6 +6,7 @@ const db = require('./src/config/dbconfig');
 const formatMessage = require('./src/services/messages');
 const users = require('./src/services/users')
 const cookieParser = require('cookie-parser')
+const tsParticles = require("tsparticles");
 
 const app = express();
 const server = http.createServer(app);
@@ -32,6 +33,7 @@ const indexRoute = require('./src/api/routes/index');
 //Middleware
 app.set('view engine', 'ejs');
 app.use('/', indexRoute);
+
 
 //Running connection
 const botName = 'Bot';
