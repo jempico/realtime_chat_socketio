@@ -61,6 +61,7 @@ This is the tech stack I've worked with:
 * [Node.js](https://nodejs.dev/)
 * [Socket.IO](https://socket.io/)
 * [MongoDB](https://www.mongodb.com/)
+* [MongoDB Atlas](https://www.mongodb.com/)
 * [Mongoose](https://mongoosejs.com/)
 * [OAuth 2.0](https://developers.google.com/identity/protocols/oauth2)
 * [EJS](https://ejs.co/)
