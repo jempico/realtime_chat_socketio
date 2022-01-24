@@ -98,8 +98,8 @@ To get a local copy up and running follow these simple steps.
 - [x] Authenticate users with Google Token (google-auth-library).
 - [x] Using Socket.io to create web sockets.
 - [x] Using MongoDB and Mongoose for schema validation.
+- [x] Set up a  MongoDB Atlas cluster.
 - [x] Server Side Rendering with EJS template engine to inject dynamic content into the html.
-- [x] Using Socket.io to create web sockets
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
