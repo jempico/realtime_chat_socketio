@@ -2,6 +2,10 @@ const router = require('express').Router();
 const {checkAuth, checkGuest} = require('../../middleware/googleAuth')
 const indexController = require('../controllers/index');
 
+// @desc    Landing page
+// @route   GET/
+router.get('/', checkGuest, indexController.logIn)
+
 // @desc    Login/landing page
 // @route   GET/
 router.get('/login', checkGuest, indexController.logIn)
