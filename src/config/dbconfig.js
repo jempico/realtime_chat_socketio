@@ -9,7 +9,7 @@ const connectDB = async() =>{
             useCreateIndex: true })
         console.log(`Database connected to ${db.connection.host}`)
     } catch(err) {
-         console.log(err)
+        console.log(err)
     }
 }
 
