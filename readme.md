@@ -76,7 +76,7 @@ To get a local copy up and running follow these simple steps.
    ```
 3. Add environment variables: edit or create and `.env` file in the root directory with the following data:
    ```
-    PORT= 1000
+    PORT= 3000
     DB_USER = tester
     DB_PASSWORD = AWnHq3IDZaeDL8DP
    ```
